@@ -1,0 +1,22 @@
+name: Daily Test Execution.
+
+# configure manual trigger, push event, pull_request event and daily nightly execution.
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]  
+  schedule: ## Schedule the job to run at 12.am daily.
+     - cron: '0 */12 * * *'
+  
+jobs:
+  UAT-Smoke-Tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Smoke Tests
+        run: |
+          npm install
+          npm run cypress:smoke-test
