@@ -1,0 +1,14 @@
+
+#project dependencies
+.DS_Store
+node_modules
+cypress/e2e/other
+.temp
+cypress\downloads
+cypress\videos
+package-lock.json
+mochawesome-report
+
+#vs code settings
+.vscode/
+.env

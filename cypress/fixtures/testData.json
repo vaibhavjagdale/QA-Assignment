@@ -1,0 +1,11 @@
+{
+  "Testcase1": {
+    "searchJobTitle": "Test",
+    "refineCountryName": "Netherlands"
+  },
+  "Testcase2": {
+    "categoryName": "Sales",
+    "refineCountryName": "Germany",
+    "jobCountWithSalesandGermanCountry": "19"
+  }
+}

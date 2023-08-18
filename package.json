@@ -1,0 +1,22 @@
+{
+  "name": "qa-engineer-challenge",
+  "version": "1.0.0",
+  "description": "E2E tests",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^12.17.1"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:smoke-test": "cypress run --spec **/*.cy.js --reporter mochawesome"
+  },
+  "keywords": [
+    "cypress",
+    "test automation",
+    "javascript"
+  ],
+  "author": "Vaibhav Jagdale",
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}
