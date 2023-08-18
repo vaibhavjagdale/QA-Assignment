@@ -34,9 +34,6 @@ Add below extensions to the VS code
 ### Test Result
 - Check test result in mochawesome-report folder.
 
-### Part 1 (Manual) task solution
-- Check Part1-Task(Manual).txt file.
-
 ### Note
 1. I completed the assignment within one day.
 2. Please let me know if you have any feedback, improvements or remarks.I am very eager to address and improve.
