@@ -4,7 +4,7 @@ UI Test Automation Framework with Cypress and Javscript
 ## Features
 - Used Page Object Model.
 - Used Helpers classes.
-- Defined folder structure.
+- No wait.
 - Used cy.log for logging.
 - Github actions for manual trigger, push event, pull_request event and daily nightly execution.
 
