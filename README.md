@@ -34,6 +34,8 @@ Add below extensions to the VS code
 ### Test Result
 - Check test result in mochawesome-report folder.
 
+### Presentation of an SDLC sprint from standpoint of a QA engineer
+- Check QA-Assignment.pptx.
+
 ### Note
-1. I completed the assignment within one day.
 2. Please let me know if you have any feedback, improvements or remarks.I am very eager to address and improve.
