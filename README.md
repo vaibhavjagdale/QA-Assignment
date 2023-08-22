@@ -34,7 +34,7 @@ Add below extensions to the VS code
 ### Test Result
 - Check test result in mochawesome-report folder.
 
-### Presentation of an SDLC sprint from standpoint of a QA engineer
+### Presentation on SDLC sprint from standpoint of a QA engineer
 - Check QA-Assignment.pptx.
 
 ### Note
